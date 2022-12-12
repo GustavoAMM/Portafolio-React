@@ -1,5 +1,8 @@
+import IcoSkill from '../components/IcoSkill'
 function Skills(){
-    return <h1 className="text-white">HOla Skills</h1>
+    return <div className='flex gap-5 px-4 items-center my-14'>
+        <IcoSkill></IcoSkill>
+    </div>
 }
 
 export default Skills

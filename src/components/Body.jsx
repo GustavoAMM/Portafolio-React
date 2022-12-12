@@ -5,8 +5,7 @@ import { SiPinboard } from "react-icons/si";
 
 function Body() {
   return (
-    <div className="rounded-3xl p-2" style={{ background: "#191724" }}>
-      <div className="flex items-center  ">
+    <div className="rounded-3xl p-2 flex items-center" style={{ background: "#191724" }}>
         <img
           src="src/assets/icono.png"
           className="rounded-full w-60 h-60 p-4"
@@ -42,7 +41,6 @@ function Body() {
             fullstack but I prefer backend. I really like python and JavaScript.
           </p>
         </div>
-      </div>
     </div>
   );
 }
