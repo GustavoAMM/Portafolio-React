@@ -6,12 +6,11 @@ import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex items-center">
-      {/* COntenido de la barra de navegacion fija */}
-      <div>
+    <div className="flex">
+      <div className="w-24">
         <nav
-          className="rounded-3xl grid content-center gap-10 py-4 px-2 mx-4 h-80"
-          style={{ background: "#191724" }}
+          className="rounded-3xl grid content-around justify-center w-12 h-64 absolute top-40 left-6"
+           style={{ background: "#191724" }} 
         >
           <Link to="/">
             <FcHome className="w-8 h-8" />
@@ -27,9 +26,7 @@ function Navbar() {
           </Link>
         </nav>
       </div>
-
-      {/* Lugar donde se van a renderizar los componentes */}
-      <div>
+      <div className="w-full h-screen grid justify-items-center content-center">
         <Outlet />
       </div>
     </div>
