@@ -1,7 +1,7 @@
 function Body(){
     return (
-        <div className="bg-purple-300">
-            Soy el cuerpo
+        <div className="" style={{background:"#191724"}}>
+           
         </div>
     )
 }
