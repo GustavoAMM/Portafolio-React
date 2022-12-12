@@ -7,7 +7,6 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="flex my-20">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route path="/" element={<Home />} />
@@ -16,7 +15,6 @@ function App() {
           <Route path="email" element={<Email />} />
         </Route>
       </Routes>
-    </div>
   );
 }
 

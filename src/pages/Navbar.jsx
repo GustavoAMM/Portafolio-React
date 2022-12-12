@@ -6,30 +6,32 @@ import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex">
-     <div>
-     <nav
-        className="rounded-3xl grid content-center gap-10 py-4 px-2 mx-4"
-        style={{ background: "#191724" }}
-      >
-        <Link to="/">
-          <FcHome className="w-8 h-8" />
-        </Link>
-        <Link to="/skills">
-          <FcInfo className="w-8 h-8" />
-        </Link>
-        <Link to="/projects">
-          <FcOpenedFolder className="w-8 h-8" />
-        </Link>
-        <Link to="/email">
-          <FcInvite className="w-8 h-8" />
-        </Link>
-      </nav>
-     </div>
-     <div>
-     <Outlet/>
+    <div className="flex items-center">
+      {/* COntenido de la barra de navegacion fija */}
+      <div>
+        <nav
+          className="rounded-3xl grid content-center gap-10 py-4 px-2 mx-4 h-80"
+          style={{ background: "#191724" }}
+        >
+          <Link to="/">
+            <FcHome className="w-8 h-8" />
+          </Link>
+          <Link to="/skills">
+            <FcInfo className="w-8 h-8" />
+          </Link>
+          <Link to="/projects">
+            <FcOpenedFolder className="w-8 h-8" />
+          </Link>
+          <Link to="/email">
+            <FcInvite className="w-8 h-8" />
+          </Link>
+        </nav>
+      </div>
 
-     </div>
+      {/* Lugar donde se van a renderizar los componentes */}
+      <div>
+        <Outlet />
+      </div>
     </div>
   );
 }

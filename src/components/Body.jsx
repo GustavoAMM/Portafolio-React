@@ -5,7 +5,7 @@ import { SiPinboard } from "react-icons/si";
 
 function Body() {
   return (
-    <div className="rounded-3xl p-2  " style={{ background: "#191724" }}>
+    <div className="rounded-3xl p-2" style={{ background: "#191724" }}>
       <div className="flex items-center  ">
         <img
           src="src/assets/icono.png"
@@ -35,14 +35,14 @@ function Body() {
           </ul>
           <p className="text-white my-2">
             My name is Angel, I am a 20-year-old Mexican programmer who likes to
-            develop many more varied things that come from my imagination.</p>
-            <p className="text-white mb-20">
-            I am very passionate about programming and cybersecurity, I am fullstack
-            but I prefer backend. I really like python and JavaScript.
+            develop many more varied things that come from my imagination.
+          </p>
+          <p className="text-white mb-20">
+            I am very passionate about programming and cybersecurity, I am
+            fullstack but I prefer backend. I really like python and JavaScript.
           </p>
         </div>
       </div>
-     
     </div>
   );
 }
