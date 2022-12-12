@@ -3,8 +3,12 @@ import Body from "./Body";
 function App() {
   return (
     <div className="flex">
-      <Navbar></Navbar>
+      <div className="px-2">
+        <Navbar></Navbar>
+      </div>
+      <div className="px-2">
         <Body></Body>
+      </div>
     </div>
   );
 }
