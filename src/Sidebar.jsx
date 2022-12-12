@@ -23,13 +23,13 @@ function Sidebar() {
 
       {/* Division */}
 
-      <div className="rounded-3xl p-2" style={{ background: "#191724" }}>
+      <div className="rounded-3xl p-8 my-2" style={{ background: "#191724" }}>
         <h1 className="text-white text-center font-mono font-bold py-2 text-xl">
           Curriculum{" "}
         </h1>
        <div className="flex justify-center">
        <a href="" className="py-2">
-          <FcDownload className="w-12 h-12" />
+          <FcDownload className="w-10 h-10" />
         </a>
        </div>
       </div>
