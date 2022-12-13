@@ -1,4 +1,9 @@
-function Projects(){
-    return <h1 className="text-white">Hola proyectos</h1>
+import Carrusel from "../components/Carrusel";
+import Github from "../components/Github";
+
+function Projects() {
+  return (
+   <Carrusel></Carrusel>
+  );
 }
-export default Projects
+export default Projects;
