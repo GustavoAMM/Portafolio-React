@@ -13,16 +13,16 @@ function Navbar() {
            style={{ background: "#191724" }} 
         >
           <Link to="/">
-            <FcHome className="w-8 h-8" />
+            <FcHome className="w-8 h-8 hover:scale-125" />
           </Link>
           <Link to="/skills">
-            <FcInfo className="w-8 h-8" />
+            <FcInfo className="w-8 h-8 hover:scale-125" />
           </Link>
           <Link to="/projects">
-            <FcOpenedFolder className="w-8 h-8" />
+            <FcOpenedFolder className="w-8 h-8 hover:scale-125" />
           </Link>
           <Link to="/email">
-            <FcInvite className="w-8 h-8" />
+            <FcInvite className="w-8 h-8 hover:scale-125" />
           </Link>
         </nav>
       </div>
