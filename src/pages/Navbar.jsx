@@ -21,7 +21,7 @@ function Navbar() {
           <Link to="/projects">
             <FcOpenedFolder className="w-8 h-8 hover:scale-125" />
           </Link>
-          <Link to="/email">
+          <Link to="/social">
             <FcInvite className="w-8 h-8 hover:scale-125" />
           </Link>
         </nav>
