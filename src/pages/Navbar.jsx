@@ -7,9 +7,9 @@ import { Outlet, Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="flex">
-      <div className="w-24">
+      <div className="w-24 grid justify-items-center content-center">
         <nav
-          className="rounded-3xl grid content-around justify-center w-12 h-64 absolute top-40 left-6"
+          className="rounded-3xl grid content-around justify-center w-12 h-64 "
            style={{ background: "#191724" }} 
         >
           <Link to="/">

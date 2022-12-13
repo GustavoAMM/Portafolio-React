@@ -17,10 +17,11 @@ import { SiArchlinux } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiTrello } from "react-icons/si";
+
 function IcoSkill() {
   return (
     <div className="rounded-3xl" style={{ background: "#191724" }}>
-      <h1 className="text-white text-center font-mono font-bold text-3xl my-4">Skills</h1>
+      <h1 className="text-white text-center font-mono font-bold text-3xl pt-12">Skills</h1>
       <div className=" grid grid-cols-2 p-12">
         <div className="flex">
           <p className="flex">
