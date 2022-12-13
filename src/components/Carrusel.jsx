@@ -1,16 +1,12 @@
 
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import { BsFillArrowUpRightSquareFill } from "react-icons/bs";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "./styles.css";
 
-// import required modules
 import { Pagination, Navigation } from "swiper";
 
 export default function Carrusel() {
@@ -27,117 +23,35 @@ export default function Carrusel() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div>
+          <img src="https://w.wallhaven.cc/full/4x/wallhaven-4x7w6z.png" alt="" />
+          <div className="card-description">
+            <h4 className="text-white text-center font-extrabold my-2 text-xl">Proyecto personal academico de UPQS</h4>
+            <p className="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, maxime ratione! A odio itaque saepe inventore necessitatibus pariatur minus error sapiente iste quibusdam accusantium quisquam et repellat, sequi soluta? Dignissimos!</p>
+          </div>
+          <div className="card-link flex justify-center">
+            <a href="https://youtube.com" className="flex my-2 justify-center" target="_blank">More<BsFillArrowUpRightSquareFill className="m-1" /></a>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div>
+          <img src="https://w.wallhaven.cc/full/4x/wallhaven-4x7w6z.png" alt="" />
+          <div className="card-description">
+            <h4 className="text-white text-center font-extrabold my-2 text-xl">Proyecto personal academico de UPQS</h4>
+            <p className="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, maxime ratione! A odio itaque saepe inventore necessitatibus pariatur minus error sapiente iste quibusdam accusantium quisquam et repellat, sequi soluta? Dignissimos!</p>
+          </div>
+          <div className="card-link flex justify-center">
+            <a href="https://youtube.com" className="flex my-2 justify-center" target="_blank">More<BsFillArrowUpRightSquareFill className="m-1" /></a>
+          </div>
         </SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
-        <SwiperSlide> <img src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="" />
-            <div className="card-description">
-              <div className="card-title">
-                <h4 className="text-white">Descriptions</h4>
-              </div>
-              <div className="card-text">
-                <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos vitae dicta itaque vel perferendis veniam, quidem labore id nulla eum ducimus? Mollitia voluptatum doloribus quibusdam ratione ipsam repellendus laudantium.</p>
-              </div>
-              <div className="card-link">
-                <a href="#">Follow</a>
-              </div>
-            </div></SwiperSlide>
+        <SwiperSlide>
+          <img src="https://w.wallhaven.cc/full/4x/wallhaven-4x7w6z.png" alt="" />
+          <div className="card-description">
+            <h4 className="text-white text-center font-extrabold my-2 text-xl">Proyecto personal academico de UPQS</h4>
+            <p className="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, maxime ratione! A odio itaque saepe inventore necessitatibus pariatur minus error sapiente iste quibusdam accusantium quisquam et repellat, sequi soluta? Dignissimos!</p>
+          </div>
+          <div className="card-link flex justify-center">
+            <a href="https://youtube.com" className="flex my-2 justify-center" target="_blank">More<BsFillArrowUpRightSquareFill className="m-1" /></a>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
