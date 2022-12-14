@@ -9,9 +9,11 @@ import "./styles.css";
 
 import { Pagination, Navigation } from "swiper";
 
-export default function Carrusel() {
+function Carrusel() {
   return (
     <>
+   <div className="rounded-3xl p-4 items-center" style={{background:"#191724",width:"1000px",height:"500px"}}>
+   <h1 className="text-white text-center font-mono font-bold text-3xl my-8">Proj<span style={{ color: "crimson" }}>ects</span></h1>
       <Swiper
         slidesPerView={3}
         spaceBetween={20}
@@ -20,7 +22,7 @@ export default function Carrusel() {
         loopFillGroupWithBlank={true}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper w-4/5 h-80"
       >
         <SwiperSlide>
           <img src="https://w.wallhaven.cc/full/4x/wallhaven-4x7w6z.png" alt="" />
@@ -53,6 +55,9 @@ export default function Carrusel() {
           </div>
         </SwiperSlide>
       </Swiper>
+   </div>
+
     </>
   );
 }
+export default Carrusel;

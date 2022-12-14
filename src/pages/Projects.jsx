@@ -1,8 +1,8 @@
-import Carrusel from "../components/Carrusel";
+import Carrusel from '../components/Carrusel';
 
 function Projects() {
   return (
-   <Carrusel ></Carrusel>
-  );
+    <Carrusel/>
+  )
 }
 export default Projects;
