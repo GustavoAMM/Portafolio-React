@@ -27,7 +27,7 @@ function Sidebar() {
         </h1>
         <div className="flex justify-center ">
           <a href="#" >
-            <TiDownloadOutline className="w-12 h-12 hover:w-14 hover:h-14" style={{color:"crimson"}} />
+            <TiDownloadOutline className="w-12 h-12 hover:w-14 hover:h-14 animate-bounce" style={{color:"crimson"}} />
           </a>
         </div>
       </div>}
