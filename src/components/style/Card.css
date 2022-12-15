@@ -1,10 +1,10 @@
 .card-main{
     background-color: #272436;
-    height: 350px;
+    height: 300px;
 }
 
 .container-description{
-    height: 100px;
+    height: 80px;
     font-size: small;
     overflow: auto;
     text-align: justify;

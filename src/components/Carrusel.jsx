@@ -8,31 +8,32 @@ function Carrusel() {
       <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
         Proj<span style={{ color: "crimson" }}>ects</span>
       </h1>
-      <Input placeholder="Categoria" className="text-white my-2" />
-      <div className="container-card grid grid-cols-3 justify-items-center">
+      <Input placeholder="Categoria" className="text-white" />
+      <div className="container-card grid grid-cols-3 justify-items-center mt-4">
         <Card
           tag={["js", "java", "python"]}
           title="Proyecto UPQ"
           description="Lorem "
           banner='https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg'
         />
+        
         <Card
           tag={["Rust", "NestJs"]}
           title="Task list"
-          description="Proyecto personal creado con herramientas de react para poder aprender dicha tecnologia"
-          banner="https://raw.githubusercontent.com/GustavoAMM/Wallpapers/main/banner.jpg?token=GHSAT0AAAAAAB3SG72F2WRZZC2PPO3P3CGGY43NGOQ"
+          description="Proyecto personal creado con herramientas de react para poder aprender dicha tecnologia lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, neque et! Placeat numquam maiores illo modi facere quisquam eius tenetur laborum debitis suscipit rem consequuntur optio explicabo iure, laboriosam amet."
+          banner="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg"
         />
         <Card
           tag={["C++", "Arch", "Bash","Ubuntu"]}
           title="Portafolio"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatem vel laborum, eum soluta"
-          banner="https://raw.githubusercontent.com/GustavoAMM/Wallpapers/main/background-black.jpg?token=GHSAT0AAAAAAB3SG72FJXDYFGPMKAEUI2N6Y43NKCQ"
+          banner="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg"
         />
         <Card
           tag={["C++"]}
           title="Portafolio version 2 react"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatem vel laborum, eum soluta"
-          banner="https://raw.githubusercontent.com/GustavoAMM/Wallpapers/main/icono.png?token=GHSAT0AAAAAAB3SG72F3YA7WWMHRASSGUBEY43NKRQ"
+          banner="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg"
         />
       </div>
     </div>
