@@ -1,5 +1,6 @@
 import { TiDownloadOutline } from "react-icons/ti";
 import {TiArrowRightOutline} from "react-icons/ti";
+import "./style/Body.css"
 
 function Sidebar() {
   return (
@@ -9,15 +10,15 @@ function Sidebar() {
         <h1 className="text-center font-bold text-xl py-4">About me</h1>
         <div className="flex">
           <TiArrowRightOutline className="my-1 scale-150" style={{color:"crimson"}}/>
-          <p className="px-2 font-thin">Age: 20</p>
+          <p className="px-2 texto-body">Age: 20</p>
         </div>
         <div className="flex">
           <TiArrowRightOutline className="my-1 scale-150" style={{color:"crimson"}}/>
-          <p className="px-2 font-thin">BIrthday: 31 March</p>
+          <p className="px-2 texto-body">BIrthday: 31 March</p>
         </div>
         <div className="flex">
           <TiArrowRightOutline className="my-1 scale-150" style={{color:"crimson"}}/>
-          <p className="px-2 font-thin">Country: México</p>
+          <p className="px-2 texto-body">Country: México</p>
         </div>
       </div>
       {/* CV */}

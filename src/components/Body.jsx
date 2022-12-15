@@ -2,6 +2,7 @@ import { GrReactjs } from "react-icons/gr";
 import { SiNestjs } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiPinboard } from "react-icons/si";
+import "./style/Body.css"
 
 function Body() {
   return (
@@ -36,11 +37,11 @@ function Body() {
         <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
           Angel <span style={{ color: "crimson" }}>Montoya</span>
         </h1>
-        <div className="text-white font-thin mt-8 text-lg">
-          <p className="mb-4">
+        <div className="text-white mt-8 mx-8 text-lg">
+          <p className=" texto-body mb-4">
             My name is Angel, I am a 20-year-old Mexican programmer who likes to develop many different things that come from my imagination.
           </p>
-          <p>
+          <p className="texto-body">
             I am very passionate about programming and cybersecurity, I am fullstack but I prefer backend. I really like Python and JavaScript.
           </p>
         </div>
