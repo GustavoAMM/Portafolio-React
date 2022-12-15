@@ -18,7 +18,11 @@ import { SiGit } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiTrello } from "react-icons/si";
 import {SiPhp} from "react-icons/si";
-import "./styles.css"
+import * as React from 'react';
+
+
+
+    
 
 function IcoSkill() {
   return (
@@ -28,7 +32,7 @@ function IcoSkill() {
         <div className="flex">
           <p className="flex">
             <h1 className="grid content-center">Programming: </h1>
-            <SiJavascript className="w-12 h-12 m-3 fill-yellow-400" title="JavaScript"></SiJavascript>
+            <SiJavascript className="w-12 h-12 m-3 fill-yellow-400" title="JavaScript" ></SiJavascript>
             <SiPython className="Icono w-12 h-12 m-3 fill-blue-900" title="Python"></SiPython>
           </p>
         </div>

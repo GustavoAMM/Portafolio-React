@@ -1,0 +1,18 @@
+.card-main{
+    overflow: auto;
+    background-color: #272436;
+}
+
+.container-description{
+    height: 90px;
+    font-size: smaller;
+    overflow: auto;
+}
+
+.container-description::-webkit-scrollbar{
+    width: 4px;
+}
+.container-description::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 15px;
+}

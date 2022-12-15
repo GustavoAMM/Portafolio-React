@@ -1,0 +1,24 @@
+.container-main{
+    background-color: #191724;
+    width: 1000px;
+    height: 500px;
+    padding: 50px;
+   
+}
+span {
+    color: crimson;
+}
+
+.container-card{
+    height: 350px;
+    overflow: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-card::-webkit-scrollbar{
+    width: 4px;
+}
+.container-card::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 15px;
+}
