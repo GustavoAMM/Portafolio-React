@@ -1,16 +1,14 @@
 import { Image } from "@chakra-ui/react";
 import "./style/Card.css"
-function Card({tag,title,description}) {
+function Card({tag,title,description,banner}) {
     console.log(tag)
     return (
         <a href="">
             <div className="w-64 p-0 my-4 rounded-2xl card-main hover:scale-105">
                 <Image
-                    src='https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg'
-                    alt='astrounant'
+                    src={banner}
                     objectFit='cover'
-                    mx='auto'
-                    className="rounded-t-2xl"
+                    className="rounded-t-2xl h-32 w-full"
                 />
                 <div className="card-Body">
 
