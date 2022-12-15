@@ -14,6 +14,7 @@ span {
     overflow: auto;
     margin-left: 50px;
     margin-right: 50px;
+    overflow-x: hidden;
 }
 .container-card::-webkit-scrollbar{
     width: 4px;
