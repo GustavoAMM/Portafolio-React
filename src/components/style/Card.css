@@ -1,12 +1,13 @@
 .card-main{
-    overflow: auto;
     background-color: #272436;
+    height: 350px;
 }
 
 .container-description{
-    height: 90px;
-    font-size: smaller;
+    height: 100px;
+    font-size: small;
     overflow: auto;
+    text-align: justify;
 }
 
 .container-description::-webkit-scrollbar{
@@ -16,3 +17,22 @@
     background: crimson;
     border-radius: 15px;
 }
+.card-title{
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 25px;
+    width: 230px;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-title::-webkit-scrollbar{
+    background: #272436;
+    height: 1px;
+}
+.card-title::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 5px;
+}
+
+
