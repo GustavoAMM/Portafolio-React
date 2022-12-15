@@ -4,7 +4,7 @@ function Card({tag,title,description,banner,link}) {
     console.log(tag)
     return (
         <a href={link}>
-            <div className="w-64 p-0 my-2 rounded-2xl card-main hover:scale-105">
+            <div className="w-64 my-3 rounded-2xl card-main hover:scale-105">
                 <Image
                     src={banner}
                     objectFit='cover'

@@ -8,7 +8,10 @@ function Carrusel() {
       <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
         Proj<span style={{ color: "crimson" }}>ects</span>
       </h1>
-      <Input placeholder="Categoria" className="text-white" />
+      <div className="grid justify-items-center">
+      <Input placeholder="Programming language" autoFocus={true} className="text-white focus:" width="400px"  />
+
+      </div>
       <div className="container-card grid grid-cols-3 justify-items-center mt-4">
         <Card
           tag={["js", "java", "python"]}
