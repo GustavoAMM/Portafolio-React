@@ -2,8 +2,7 @@ import { Image } from "@chakra-ui/react";
 import "./style/Card.css"
 function Card({ info }) {
     let tagles = info.tag
-    console.log(info)
-    if(info != []){
+    if(info){
         return (
             <a href={info.link} target="_blank">
                 <div className="w-64 my-3 rounded-2xl card-main hover:scale-105">

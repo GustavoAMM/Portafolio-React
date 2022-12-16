@@ -25,8 +25,7 @@ function Carrusel() {
           }else{
           setFilter(e.target.value)} */ 
           let valorBuscado = e.target.value
-          const result = data.filter(tagles => tagles.title === valorBuscado)
-
+          const result = data.filter(tagles => tagles.tag.includes(valorBuscado.toLocaleLowerCase()))
           if (valorBuscado == []){
             SetAsd(data)
           }else{
