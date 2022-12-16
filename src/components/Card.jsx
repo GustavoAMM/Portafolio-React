@@ -1,10 +1,9 @@
 import { Image } from "@chakra-ui/react";
 import "./style/Card.css"
 function Card({ info }) {
-    console.log(info)
     let tagles = info.tag
     return (
-        <a href={info.link}>
+        <a href={info.link} target="_blank">
             <div className="w-64 my-3 rounded-2xl card-main hover:scale-105">
                 <Image
                     src={info.banner}

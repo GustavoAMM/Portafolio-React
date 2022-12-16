@@ -1,20 +1,9 @@
 import "./style/carrusel.css";
 import Card from "./Card";
 import { Input } from "@chakra-ui/react";
-import React from "react";
-
+import {data} from "../data/data"
 function Carrusel() {
-  const data = [
-    {
-      id: 0,
-      link: "https://github.com/GustavoAMM/Portafolio-React",
-      banner: "https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg",
-      tag: ["java", "pyhton"],
-      title: "Portafolio React",
-      description: "Proyecto personal para poder practicar React y mostrar todos mis proyectos"
-    }
-  ];
-
+  
   return (
     <div className="container-main rounded-3xl p-4 items-center">
       <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
