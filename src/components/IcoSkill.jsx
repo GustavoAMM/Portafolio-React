@@ -26,7 +26,7 @@ import * as React from 'react';
 
 function IcoSkill() {
   return (
-    <div className="rounded-3xl" style={{ background: "#191724" }}>
+    <div className="rounded-3xl sm:mx-6 xl:mx-0" style={{ background: "#191724" }}>
       <h1 className="text-white text-center font-mono font-bold text-3xl pt-12">Ski<span style={{color:"crimson"}}>lls</span></h1>
       <div className=" grid grid-cols-2 p-12 text-white font-thin">
         <div className="flex">
