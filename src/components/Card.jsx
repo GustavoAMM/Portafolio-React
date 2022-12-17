@@ -5,7 +5,7 @@ function Card({ info }) {
     if(info){
         return (
             <a href={info.link} target="_blank">
-                <div className="w-64 my-3 rounded-2xl card-main hover:scale-105">
+                <div className="w-60 my-2 rounded-2xl card-main hover:scale-105">
                     <Image
                         src={info.banner}
                         objectFit='cover'

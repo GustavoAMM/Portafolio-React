@@ -1,7 +1,7 @@
 .container-main{
     background-color: #191724;
     width: 1000px;
-    height: 510px;
+    height: 570px;
     padding: 50px;
    
 }
@@ -10,7 +10,7 @@ span {
 }
 
 .container-card{
-    height: 350px;
+    height: 370px;
     overflow: auto;
     margin-left: 50px;
     margin-right: 50px;

@@ -31,7 +31,7 @@ function Carrusel() {
 
   return (
     <div className="container-main rounded-3xl p-4 items-center">
-      <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
+      <h1 className="text-white text-center font-mono font-bold text-3xl my-2">
         Proj<span style={{ color: "crimson" }}>ects</span>
       </h1>
       <div className="grid justify-items-center">
