@@ -8,7 +8,7 @@ function Body() {
   return (
     <div className="rounded-3xl p-4 flex items-center" style={{ background: "#191724" }}>
       {/* container img and description */}
-      <div className=" grid justify-items-center w-1/3 ">
+      <div className="grid justify-items-center w-1/3 ">
         <img
           src="src/assets/icono.png"
           className="rounded-full w-56 h-56"

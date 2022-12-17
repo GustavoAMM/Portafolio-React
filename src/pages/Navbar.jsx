@@ -6,11 +6,10 @@ import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex">
-      <div className="w-24 grid justify-items-center content-center">
+    <div className="xl:flex sm:grid sm:fixed xl:relative">
+      <div className="xl:w-24 sm:w-full grid justify-items-center content-center">
         <nav
-          className="rounded-3xl grid content-around justify-center w-12 h-64 "
-           style={{ background: "#191724" }} 
+          className="xl:rounded-3xl sm:rounded-b-3xl xl:grid sm:flex xl:content-around xl:justify-center xl:w-12 sm:w-full xl:h-64 sm:h-20 bg-[#191724] sm:items-center sm:justify-around"
         >
           <Link to="/">
             <FcHome className="w-8 h-8 hover:scale-125" />
