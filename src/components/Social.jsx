@@ -13,7 +13,7 @@ function Social() {
                 {/* Primer fila */}
                 <div className="flex justify-around mb-4 mt-4">
                     {/* Github */}
-                    <a href="#" className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-purple-700 hover:opacity-100">
+                    <a href="https://github.com/GustavoAMM" target={"_blank"} className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-purple-700 hover:opacity-100">
                         <SiGithub className="w-24 h-24 hover:scale-110"></SiGithub>
                         <h1 className="text-center font-mono font-bold text-lg mt-5 mb-2">
                             @GustavoAMM
@@ -21,7 +21,7 @@ function Social() {
                     </a>
 
                     {/* Github */}
-                    <a href="#" className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-cyan-400 hover:opacity-100">
+                    <a href="https://twitter.com/soyangel_m245" target={"_blank"} className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-cyan-400 hover:opacity-100">
                         <SiTwitter className="w-24 h-24 hover:scale-110"/>
                         <h1 className="text-center font-mono font-bold text-lg mt-5 mb-2">
                             @soyangel_m245
@@ -31,14 +31,14 @@ function Social() {
                 {/* Segunda fila */}
                 <div className="flex justify-around mb-4 mt-4">
                     {/* Github */}
-                    <a href="#" className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-blue-700 hover:opacity-100">
+                    <a href="https://www.linkedin.com/in/angel-montoya-984738232/" target={"_blank"} className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-blue-700 hover:opacity-100">
                         <SiLinkedin className="w-24 h-24 hover:scale-110"/>
                         <h1 className="text-center font-mono font-bold text-lg mt-5 mb-2">
                             @Angel Montoya
                         </h1>
                     </a>
                     {/* Github */}
-                    <a href="#" className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-rose-700 hover:opacity-100">
+                    <a href="https://www.instagram.com/soyangel_m/" target={"_blank"} className="grid justify-items-center rounded-3xl text-white opacity-40 hover:text-rose-700 hover:opacity-100">
                         <SiInstagram className="w-24 h-24 hover:scale-110"/>
                         <h1 className="text-center font-mono font-bold text-lg mt-5 mb-2">
                             @Angel Montoya

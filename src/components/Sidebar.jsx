@@ -23,7 +23,7 @@ function Sidebar() {
       </div>
       {/* CV */}
      { <div className="rounded-3xl p-4 h-36" style={{ background: "#191724" }}>
-     <h1 className="text-white text-center font-mono font-bold text-2xl mt-2 mb-6">curri<span className="font-mono" style={{ color: "crimson" }}>culum</span></h1>
+     <h1 className="text-white text-center font-mono font-bold text-2xl mt-2 mb-6">Curri<span className="font-mono" style={{ color: "crimson" }}>culum</span></h1>
         <div className="flex justify-center ">
           <a href="#" >
             <TiDownloadOutline className="w-12 h-12 hover:w-14 hover:h-14 animate-bounce" style={{color:"crimson"}} />
