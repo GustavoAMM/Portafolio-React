@@ -2,11 +2,11 @@ import "./style/Body.css"
 
 function Text() {
   return (
-    <div className="h-full rounded-3xl" style={{ background: "#191724" }}>
-       <h1 className="text-white text-center font-mono font-bold text-3xl pt-10">
-          Conact <span style={{ color: "crimson" }}>me</span>
+    <div className="h-full rounded-3xl xl:grid sm:flex" style={{ background: "#191724" }}>
+       <h1 className="text-white text-center font-mono font-bold text-3xl xl:pt-10 xl:flex  sm:grid sm:content-center xl:justify-center sm:px-12 xl:px-0">
+       Contact<span className="px-4" style={{ color: "crimson" }}>me</span>
         </h1>
-      <p className="text-white text-justify px-8 texto-body pt-10 text-lg">
+      <p className="text-white text-justify px-8 texto-body xl:pt-2 sm:py-4 text-lg">
         I'm seeking out opportunities to collaborate with
         companies / agencies / individuals, not just work for them. I want to bring
         my programming experience to the table where we can work together to
