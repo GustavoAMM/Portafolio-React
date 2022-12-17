@@ -30,8 +30,8 @@ function Carrusel() {
   }
 
   return (
-    <div className="container-main rounded-3xl p-4 items-center">
-      <h1 className="text-white text-center font-mono font-bold text-3xl my-2">
+    <div className="container-main rounded-3xl p-4 items-center xl:w-[1000px] sm:w-[700px] xl:h-[570px] sm:h-[700px]">
+      <h1 className="text-white text-center font-mono font-bold text-3xl xl:my-2 sm:my-9">
         Proj<span style={{ color: "crimson" }}>ects</span>
       </h1>
       <div className="grid justify-items-center">
@@ -68,7 +68,7 @@ function Carrusel() {
           }
         </RadioGroup>
       </div>
-      <div className="container-card grid grid-cols-3 justify-items-center mt-4">
+      <div className="container-card grid xl:grid-cols-3 sm:grid-cols-2 justify-items-center xl:mt-4 sm:mt-12">
         {
           asd.map((cita) => (
             <div key={cita.id} >
