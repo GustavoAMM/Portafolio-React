@@ -1,18 +1,16 @@
 import { GrReactjs } from "react-icons/gr";
-import { SiNestjs } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiPinboard } from "react-icons/si";
-import "./style/Body.css"
+import { SiNestjs, SiJavascript, SiPinboard } from "react-icons/si";
 
 function Body() {
   return (
-    <div className="rounded-3xl xl:h-full sm:h-full h-full xl:flex sm:flex grid items-center" style={{ background: "#191724" }}>
+    <div className="rounded-3xl xl:h-full sm:h-full h-full xl:flex sm:flex grid items-center bg-[#191724]">
       {/* container img and description */}
       <div className="xl:grid xl:justify-items-center xl:w-1/3 grid justify-items-center xl:mx-12 sm:m-12 mt-4">
         <img
           src="src/assets/icono.png"
           className="rounded-full xl:w-56 xl:h-56 sm:w-48 sm:h-48 w-48 h-48 "
         />
+        {/* container img-footer */}
         <ul className="my-4">
           <li className="flex text-yellow-400">
             <SiJavascript></SiJavascript>
@@ -38,10 +36,10 @@ function Body() {
           Angel <span style={{ color: "crimson" }}>Montoya</span>
         </h1>
         <div className="text-white mt-8 mx-8 text-lg">
-          <p className=" texto-body mb-4">
+          <p className="font-[Roboto] mb-4">
             My name is Angel, I am a 20-year-old Mexican programmer who likes to develop many different things that come from my imagination.
           </p>
-          <p className="texto-body">
+          <p className="font-[Roboto]">
             I am very passionate about programming and cybersecurity, I am fullstack but I prefer backend. I really like Python and JavaScript.
           </p>
         </div>
