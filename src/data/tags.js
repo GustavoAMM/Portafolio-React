@@ -4,11 +4,6 @@ export const tags = [
         label:"all"
     },
     {
-        value:"java",
-        label:"java"
-        
-    },
-    {
         value:"react",
         label:"react"
     },
@@ -17,12 +12,12 @@ export const tags = [
         label:"node"
     },
     {
-        value:"nestjs",
-        label:"nestjs"
+        value:"boostrap",
+        label:"boostrap"
     },
     {
-        value:"python",
-        label:"python"
+        value:"tailwind",
+        label:"tailwind"
     },
 
 ]

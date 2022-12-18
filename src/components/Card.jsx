@@ -39,7 +39,7 @@ function Card({ info }) {
         return (
             <div className="w-60 justify-items-center my-2 rounded-2xl bg-[#272436] h-[300px]  hover:scale-105">
                 <Image
-                    src="src/img/bannerError.jpg"
+                    src="/img/bannerError.jpg"
                     objectFit="cover"
                     className="rounded-t-2xl h-28 w-full"
                 />
