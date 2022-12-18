@@ -57,3 +57,17 @@
     border-radius: 5px;
 }
 
+.card-category{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.card-category::-webkit-scrollbar{
+    background: #272436;
+    height: 1px;
+}
+.card-category::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 5px;
+}
+
