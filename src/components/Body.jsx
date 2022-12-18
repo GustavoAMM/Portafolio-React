@@ -33,7 +33,7 @@ function Body() {
       {/* Container title and paragraph */}
       <div className="text-cente xl:w-2/3 md:w-2/3 w-full px-1 xl:mr-12 text-justify mb-12">
         <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
-          Angel <span style={{ color: "crimson" }}>Montoya</span>
+          Angel <span className="text-[#dc143c]">Montoya</span>
         </h1>
         <div className="text-white mt-8 mx-8 text-lg">
           <p className="font-[Roboto] mb-4">

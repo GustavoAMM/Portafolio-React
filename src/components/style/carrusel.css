@@ -1,12 +1,3 @@
-.container-main{
-    background-color: #191724;
-    padding: 50px;
-   
-}
-span {
-    color: crimson;
-}
-
 .container-card{
     overflow: auto;
     margin-left: 50px;

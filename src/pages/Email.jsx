@@ -1,5 +1,6 @@
 import Social from "../components/Social";
 import Text from "../components/Text";
+
 function Email() {
   return (
     <div className="w-full px-4 py-12">

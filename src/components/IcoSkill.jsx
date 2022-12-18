@@ -1,43 +1,21 @@
-import { SiJavascript } from "react-icons/si";
-import { SiLaravel } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { SiHtml5 } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiNodedotjs } from "react-icons/si";
-import { SiNestjs } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiMariadb } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
-import { SiAdobeillustrator } from "react-icons/si";
-import { SiFigma } from "react-icons/si";
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiArchlinux } from "react-icons/si";
-import { SiGit } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
-import { SiTrello } from "react-icons/si";
-import { SiPhp } from "react-icons/si";
-import * as React from 'react';
-
-
-
+import { SiJavascript, SiLaravel, SiPython, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiNodedotjs, SiNestjs, SiMongodb, SiMariadb, SiMysql, SiAdobeillustrator, SiFigma, SiAdobephotoshop, SiArchlinux, SiGit, SiGithub, SiTrello, SiPhp } from "react-icons/si";
 
 
 function IcoSkill() {
   return (
-    <div className="rounded-3xl sm:mx-6 xl:mx-0" style={{ background: "#191724" }}>
-      <h1 className="text-white text-center font-mono font-bold text-3xl pt-12">Ski<span style={{ color: "crimson" }}>lls</span></h1>
+    // Container main
+    <div className="rounded-3xl sm:mx-6 xl:mx-0 bg-[#191724]">
+      <h1 className="text-white text-center font-mono font-bold text-3xl pt-12">Ski<span className="text-[#dc143c]">lls</span></h1>
       <div className=" grid xl:grid-cols-2 sm:grid-cols-1 grid-cols-1 p-12 text-white font-thin sm:justify-items-center">
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Programming: </h1>
+          <h1 className="font-[roboto] grid content-center">Programming: </h1>
           <div className="flex">
             <SiJavascript className="w-12 h-12 m-3 fill-yellow-400 hover:scale-110" title="JavaScript" ></SiJavascript>
             <SiPython className="Icono w-12 h-12 m-3 fill-blue-900 hover:scale-110" title="Python"></SiPython>
           </div>
         </div>
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Frontend:</h1>
+          <h1 className="font-[roboto] grid content-center">Frontend:</h1>
           <div className="flex">
             <SiHtml5 className="w-12 h-12 m-3 fill-orange-500 hover:scale-110" title="Html"></SiHtml5>
             <SiCss3 className="w-12 h-12 m-3 fill-blue-500 hover:scale-110" title="Css"></SiCss3>
@@ -46,7 +24,7 @@ function IcoSkill() {
           </div>
         </div>
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Database:</h1>
+          <h1 className="font-[roboto] grid content-center">Database:</h1>
           <div className="flex">
             <SiMongodb className="w-12 h-12 m-3 fill-green-500 hover:scale-110" title="MongoDB"></SiMongodb>
             <SiMariadb className="w-12 h-12 m-3 fill-orange-400 hover:scale-110" title="MariaDB"></SiMariadb>
@@ -54,7 +32,7 @@ function IcoSkill() {
           </div>
         </div>
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Backend:</h1>
+          <h1 className="font-[roboto] grid content-center">Backend:</h1>
           <div className="flex">
             <SiNodedotjs className="w-12 h-12 m-3 fill-lime-500 hover:scale-110" title="NodeJs"></SiNodedotjs>
             <SiNestjs className="w-12 h-12 m-3 fill-red-600 hover:scale-110" title="NestJs"></SiNestjs>
@@ -63,7 +41,7 @@ function IcoSkill() {
           </div>
         </div>
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Software:</h1>
+          <h1 className="font-[roboto] grid content-center">Software:</h1>
           <div className="flex">
             <SiAdobeillustrator className="w-12 h-12 m-3 fill-orange-500 hover:scale-110" title="Illustrator"></SiAdobeillustrator>
             <SiAdobephotoshop className="w-12 h-12 m-3 fill-blue-500 hover:scale-110" title="Photoshop"></SiAdobephotoshop>
@@ -71,7 +49,7 @@ function IcoSkill() {
           </div>
         </div>
         <div className="xl:flex sm:flex grid">
-          <h1 className="texto-body grid content-center">Other:</h1>
+          <h1 className="font-[roboto] grid content-center">Other:</h1>
           <div className="flex">
             <SiArchlinux className="w-12 h-12 m-3 fill-cyan-400 hover:scale-110" title="ArchLinux"></SiArchlinux>
             <SiGit className="w-12 h-12 m-3 fill-red-500 hover:scale-110" title="Git"></SiGit>
