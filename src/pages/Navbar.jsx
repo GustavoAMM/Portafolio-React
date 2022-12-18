@@ -6,10 +6,10 @@ import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="xl:flex sm:grid sm:fixed xl:relative sm:w-full">
-      <div className="xl:w-24 sm:w-full grid justify-items-center content-center">
+    <div className="xl:flex sm:grid grid xl:h-screen xl:w-full sm:h-full sm:w-full w-full h-full">
+      <div className="xl:w-24 xl:h-full sm:w-full sm:h-20 w-full h-16 xl:grid sm:flex flex xl:justify-items-center xl:content-center   ">
         <nav
-          className="xl:rounded-3xl sm:rounded-b-3xl xl:grid sm:flex xl:content-around xl:justify-center xl:w-12 sm:w-full xl:h-64 sm:h-20 bg-[#191724] sm:items-center sm:justify-around"
+          className="xl:rounded-3xl sm:rounded-b-3xl rounded-b-3xl xl:grid sm:flex flex xl:w-12 xl:h-72 sm:w-full sm:h-20 w-full h-20 xl:justify-items-center xl:content-around sm:justify-around sm:items-center justify-around items-center bg-[#191724]"
         >
           <Link to="/">
             <FcHome className="w-8 h-8 hover:scale-125" />
@@ -25,7 +25,7 @@ function Navbar() {
           </Link>
         </nav>
       </div>
-      <div className="w-full h-screen grid justify-items-center content-center">
+      <div className="xl:w-full xl:h-full sm:w-full sm:h-screen w-full h-full  xl:grid xl:justify-items-center xl:content-center ">
         <Outlet />
       </div>
     </div>

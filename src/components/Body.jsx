@@ -6,12 +6,12 @@ import "./style/Body.css"
 
 function Body() {
   return (
-    <div className="rounded-3xl p-4 flex items-center" style={{ background: "#191724" }}>
+    <div className="rounded-3xl xl:h-full sm:h-full h-full xl:flex sm:flex grid items-center" style={{ background: "#191724" }}>
       {/* container img and description */}
-      <div className="grid justify-items-center w-1/3 ">
+      <div className="xl:grid xl:justify-items-center xl:w-1/3 grid justify-items-center xl:mx-12 sm:m-12 mt-4">
         <img
           src="src/assets/icono.png"
-          className="rounded-full w-56 h-56"
+          className="rounded-full xl:w-56 xl:h-56 sm:w-48 sm:h-48 w-48 h-48 "
         />
         <ul className="my-4">
           <li className="flex text-yellow-400">
@@ -33,7 +33,7 @@ function Body() {
         </ul>
       </div>
       {/* Container title and paragraph */}
-      <div className="text-cente w-2/3 px-1 text-justify">
+      <div className="text-cente xl:w-2/3 md:w-2/3 w-full px-1 xl:mr-12 text-justify mb-12">
         <h1 className="text-white text-center font-mono font-bold text-3xl my-4">
           Angel <span style={{ color: "crimson" }}>Montoya</span>
         </h1>
