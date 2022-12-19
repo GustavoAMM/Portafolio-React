@@ -7,7 +7,7 @@ function Body() {
       {/* container img and description */}
       <div className="xl:grid xl:justify-items-center xl:w-1/3 grid justify-items-center xl:mx-12 sm:m-12 mt-4">
         <img
-          src="src/assets/icono.png"
+          src="/img/icono.png"
           className="rounded-full xl:w-56 xl:h-56 sm:w-48 sm:h-48 w-48 h-48 "
         />
         {/* container img-footer */}
